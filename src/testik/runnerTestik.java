@@ -14,9 +14,13 @@ public class runnerTestik {
         testikTh.testikThree();
         System.out.println();
 
-        //testik.Testik1 testikF = new testik.Testik1();
-        //testikF.testikF();
-        //System.out.println();
+        Testik1 testikF = new Testik1();
+        testikF.testikFour();
+        System.out.println();
+
+        Testik1 testikFi = new Testik1();
+        testikFi.testikFive();
+        System.out.println();
 
     }
 
