@@ -7,6 +7,7 @@ public class Bubble {
     public Bubble(String gasComposition) {
         this.gasComposition = gasComposition;
     }
+
     public void burst() {
         System.out.println("Cramp!");
     }

@@ -1,8 +1,8 @@
 package basetask;
 
 public class TrainMethodsIfRunner {
-    public static void main (String[] args) {
-        TrainMethodsIf runner = new TrainMethodsIf ();
+    public static void main(String[] args) {
+        TrainMethodsIf runner = new TrainMethodsIf();
 
         System.out.println("метод returnNewInt вернул " + runner.returnNewInt(22));
         System.out.println("метод returnNewLong вернул " + runner.returnNewLong(50000));

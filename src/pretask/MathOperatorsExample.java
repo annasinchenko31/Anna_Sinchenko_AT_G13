@@ -1,7 +1,7 @@
 package pretask;
 
 public class MathOperatorsExample {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         int a = 20;
         int b = 5;
         //int sum = a + b;
@@ -14,9 +14,9 @@ public class MathOperatorsExample {
         //System.out.println(multi);
         //System.out.println(div);
 
-        System.out.println(a+b);
-        System.out.println(a-b);
-        System.out.println(a*b);
-        System.out.println(a/b);
+        System.out.println(a + b);
+        System.out.println(a - b);
+        System.out.println(a * b);
+        System.out.println(a / b);
     }
 }

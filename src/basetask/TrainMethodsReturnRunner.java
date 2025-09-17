@@ -1,8 +1,8 @@
 package basetask;
 
 public class TrainMethodsReturnRunner {
-    public static void main (String[] agrs) {
-        TrainMethodsReturn runner = new TrainMethodsReturn ();
+    public static void main(String[] agrs) {
+        TrainMethodsReturn runner = new TrainMethodsReturn();
 
         System.out.println("метод returnNewInt вернул " + runner.returnNewInt(3));
         System.out.println("метод returnNewLong вернул " + runner.returnNewLong(123));

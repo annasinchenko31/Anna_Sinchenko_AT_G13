@@ -1,7 +1,7 @@
 package testik;
 
 public class runnerTestik {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         Testik1 testikO = new Testik1();
         testikO.testikOne();
         System.out.println();
