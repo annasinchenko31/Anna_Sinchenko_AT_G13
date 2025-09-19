@@ -1,7 +1,6 @@
 package playground.essence.creatures;
 
-public class Beetle extends Insect {
-
+public class Beetle extends Insect implements Crawlable {
     public Beetle(int mass, String name) {
         super(mass, name);
     }
@@ -9,9 +8,14 @@ public class Beetle extends Insect {
     public void nest(Carrot home) {
         if (this.getMass() < home.getMass()) {
             int carrotPerBeetle = home.getMass() / this.getMass();
-            System.out.println("I am %s and I will nest there with %d my family members!", this.getName(), carrotPerBeetle);
+            System.out.printf("I am %s and I will nest there with %d my family members!", this.getName(), carrotPerBeetle);
         } else {
             System.out.println("This carrot is too small for nesting :(");
         }
     }
+    @Override
+    public void crawl(){
+        //System.out.printf("%s is crawling%n", name);
+    }
+
 }
