@@ -1,4 +1,13 @@
 package playground.essence.creatures;
 
-public class Mosquito extends Insect {
+import playground.essence.Flyable;
+
+public class Mosquito extends Insect implements Flyable {
+    public Mosquito(int mass, String name) {
+        super(mass, name);
+    }
+    @Override
+    public void fly() {
+        System.out.printf("Mosquito %s is flying%n", getName());
+    }
 }
