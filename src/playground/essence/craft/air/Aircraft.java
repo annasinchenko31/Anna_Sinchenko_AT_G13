@@ -26,7 +26,8 @@ public abstract class Aircraft extends Matter implements Flyable, Transportable 
     }
 
     @Override
-    public void transport() {
+    public int move(int pointA, int pointB) {
        //System.out.printf("%s aircraft is transporting%n", name);
+        return pointB - pointA;
     }
 }
