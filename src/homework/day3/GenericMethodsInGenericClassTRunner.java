@@ -96,7 +96,7 @@ public class GenericMethodsInGenericClassTRunner {
 
         System.out.println(carGeneric.genericMethodTwoGenArgs(car, moped));
         System.out.println(flyGeneric.genericMethodTwoGenArgs(fly, mosquito));
-        
+
         carGeneric.genericMethodHalfGenArgs(car, "CarString");
         mosquitoGeneric.genericMethodHalfGenArgs(mosquito, "Bzzzz");
         petrolGeneric.genericMethodHalfGenArgs(petrol, "Fuel");
